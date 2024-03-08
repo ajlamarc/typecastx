@@ -26,7 +26,7 @@ jobs:
       #   with:
       #     command: addpath(pwd); results = runtests('tests'), assertSuccess(results);
       - name: Compile MEX file
-        run: mex -R2018a typecast.c typecastx.c
+        run: mex -R2017b typecastx.c
       # - name: Run tests with newly compiled MEX files
       #   uses: matlab-actions/run-command@v1
       #   with:
